@@ -30,7 +30,7 @@ longest= many_names[0]
 for i in many_names:
   if(len(longest) < len(i)):
     longest = i
-    print
+    print(longest)
 
 
 # 5. Take that same list and sort it into two lists: one list of long names, which have more than 6 characters, and one list of short names which have 6 or fewer characters. Then print out both lists.
